@@ -151,14 +151,14 @@ h1 {
 .coverage-image span {
     color: #F46752;
 }
-.coverage-uptitle {
+.section-uptitle {
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
     color: #F46752;
 }
-.coverage-title {
+.section-title {
     font-weight: 600;
     font-size: 44px;
     line-height: 52px;
@@ -174,4 +174,38 @@ h1 {
 }
 .btn-link img {
     margin-left: 6px;
+}
+
+/* meets */
+.meets {
+    padding-top: 148px;
+    padding-bottom: 164px;
+}
+.meets-image img {
+    display: block;
+    width: 542px;
+}
+.before-text {
+    display: inline-block;
+    padding: 20px 25px;
+    position: relative;
+    top: -42px;
+    left: -60px;
+    background: #fff;
+    box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+    border-radius: 5px;
+}
+.image-wrap {
+    position: relative;
+}
+.image-wrap::before {
+    content: '';
+    display: block;
+    width: 195px;
+    height: 125px;
+    background: url(../img/points.svg) center / contain no-repeat;
+    position: absolute;
+    top: -35px;
+    left: -45px;
+    z-index: -1;
 }
