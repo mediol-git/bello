@@ -26,6 +26,9 @@ h2,
 h3 {
     color: #1D253C;
 }
+p {
+    color: #5A6482;
+}
 
 /* header */
 .header {
@@ -116,7 +119,6 @@ h1 {
     font-weight: 500;
     font-size: 22px;
     line-height: 33px;
-    color: #5A6482;
     margin-top: 26px;
     margin-bottom: 40px;
 }
@@ -133,4 +135,43 @@ h1 {
     background: #F9F5F2;
     padding-top: 85px;
     padding-bottom: 85px;
+}
+.flex-item {
+    width: 50%;
+}
+.coverage-image img {
+    display: block;
+    width: 500px;
+}
+.coverage-image p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.coverage-image span {
+    color: #F46752;
+}
+.coverage-uptitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #F46752;
+}
+.coverage-title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+    margin: 26px 0 19px;
+}
+.btn-link {
+    display: block;
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #126F86;
+}
+.btn-link img {
+    margin-left: 6px;
 }
